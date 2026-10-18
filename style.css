@@ -1,0 +1,15 @@
+*{font-family:'Cairo',sans-serif;scroll-behavior:smooth}
+body{padding-top:70px;background:#fcfcfc}
+.navbar{background:rgba(255,255,255,0.95);backdrop-filter:blur(10px);box-shadow:0 2px 15px rgba(0,0,0,0.05)}
+.navbar-brand{font-weight:900;font-size:1.6rem}.navbar-brand span{color:#00c853}
+.hero{padding:80px 0;background:linear-gradient(180deg,#fff,#f5f7f6)}
+.hero h1{font-size:3rem;font-weight:900;line-height:1.2}.hero h1 span{color:#00c853;background:#e8f5e9;padding:0 10px;border-radius:10px}
+.hero p{color:#666;margin:20px 0;max-width:500px}
+.btns .btn{padding:12px 26px;border-radius:30px;font-weight:700;margin-left:10px}
+.code-window{background:#111;color:#0f0;border-radius:20px;padding:20px;box-shadow:0 20px 60px rgba(0,0,0,0.2);transform:rotate(1deg)}
+.code-window .dots span{display:inline-block;width:12px;height:12px;border-radius:50%;margin-left:6px}.dots span:nth-child(1){background:#ff5f56}.dots span:nth-child(2){background:#ffbd2e}.dots span:nth-child(3){background:#27c93f}
+.title{font-weight:900;text-align:center}
+.box{background:#fff;border:1px solid #eee;border-radius:16px;padding:25px;transition:.3s;height:100%}
+.box:hover{transform:translateY(-8px);box-shadow:0 15px 30px rgba(0,0,0,0.06);border-color:#00c853}
+.footer{background:#111;color:#fff;padding:70px 0;margin-top:40px}
+@media(max-width:768px){.hero h1{font-size:2.2rem}}
